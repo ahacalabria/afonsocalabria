@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "about": "Sobre",
+    "skills": "Habilidades",
+    "projects": "Projetos",
+    "education": "Educação",
+    "cats": "🐱 Gatos"
+  },
+  "hero": {
+    "greeting": "Olá, sou",
+    "name": "Afonso Calabria",
+    "title": "Software Developer & Technical Manager",
+    "subtitle": "Criando soluções tecnológicas de alto impacto com foco em performance, escalabilidade e experiência do usuário.",
+    "cta": "Ver Projetos",
+    "ctaContact": "Contato"
+  },
+  "skills": {
+    "title": "Experiência Técnica",
+    "backend": "Backend",
+    "frontend": "Frontend & Mobile",
+    "cv": "Visão Computacional",
+    "management": "Gestão"
+  },
+  "projects": {
+    "title": "Projetos em Destaque",
+    "okaru": {
+      "name": "OKARU",
+      "desc": "Sistema de software modular para varejo. Gestão de estoque, vendas, financeiro e muito mais em uma plataforma integrada e escalável.",
+      "tag1": "Laravel",
+      "tag2": "React Native",
+      "tag3": "SaaS"
+    },
+    "auto": {
+      "name": "Autopictograma",
+      "desc": "Pesquisa acadêmica sobre automação de comunicação assistiva. Utiliza OCR e NLP para gerar pictogramas a partir de textos, auxiliando pessoas com TEA e paralisia cerebral.",
+      "tag1": "OCR",
+      "tag2": "NLP",
+      "tag3": "Pesquisa"
+    },
+    "viewMore": "Ver mais"
+  },
+  "education": {
+    "title": "Educação & Ensino",
+    "educator": {
+      "role": "Educador em Tecnologia",
+      "desc": "Instrutor de programação Web e Mobile, formando a próxima geração de desenvolvedores com foco em fundamentos sólidos e boas práticas."
+    }
+  },
+  "cats": {
+    "title": "🐱 O Canto dos Gatos",
+    "subtitle": "Toda grande empresa tem seus mascotes. Aqui são os meus chefes de verdade.",
+    "chico": {
+      "name": "Chico",
+      "desc": "O patriarca. Sério e reservado, aprova PRs apenas quando está de bom humor."
+    },
+    "moca": {
+      "name": "Moça",
+      "desc": "A rainha da casa. Elegante, exigente e especialista em code review."
+    },
+    "tiny": {
+      "name": "Tiny",
+      "desc": "O mais enérgico. Especialista em debugging (derruba tudo para 'testar')."
+    },
+    "mime": {
+      "name": "Mime",
+      "desc": "O filósofo silencioso. Fica horas olhando para a tela pensando em algoritmos."
+    }
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados.",
+    "madeWith": "Feito com"
+  }
+}

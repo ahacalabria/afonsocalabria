@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "education": "Education",
+    "cats": "🐱 Cats"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Afonso Calabria",
+    "title": "Software Developer & Technical Manager",
+    "subtitle": "Building high-impact tech solutions focused on performance, scalability, and user experience.",
+    "cta": "View Projects",
+    "ctaContact": "Contact"
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "backend": "Backend",
+    "frontend": "Frontend & Mobile",
+    "cv": "Computer Vision",
+    "management": "Management"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "okaru": {
+      "name": "OKARU",
+      "desc": "Modular retail software system. Inventory, sales, financial management and more in an integrated, scalable platform.",
+      "tag1": "Laravel",
+      "tag2": "React Native",
+      "tag3": "SaaS"
+    },
+    "auto": {
+      "name": "Autopictograma",
+      "desc": "Academic research on assistive communication automation. Uses OCR and NLP to generate pictograms from text, helping people with ASD and cerebral palsy.",
+      "tag1": "OCR",
+      "tag2": "NLP",
+      "tag3": "Research"
+    },
+    "viewMore": "Learn more"
+  },
+  "education": {
+    "title": "Education & Teaching",
+    "educator": {
+      "role": "Technology Educator",
+      "desc": "Web and Mobile programming instructor, training the next generation of developers with a focus on solid fundamentals and best practices."
+    }
+  },
+  "cats": {
+    "title": "🐱 The Cat Corner",
+    "subtitle": "Every great company has its mascots. These are my real bosses.",
+    "chico": {
+      "name": "Chico",
+      "desc": "The patriarch. Serious and reserved, approves PRs only when in a good mood."
+    },
+    "moca": {
+      "name": "Moça",
+      "desc": "The queen of the house. Elegant, demanding, and an expert code reviewer."
+    },
+    "tiny": {
+      "name": "Tiny",
+      "desc": "The most energetic. Expert debugger (knocks everything over to 'test' it)."
+    },
+    "mime": {
+      "name": "Mime",
+      "desc": "The silent philosopher. Spends hours staring at the screen thinking about algorithms."
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "madeWith": "Made with"
+  }
+}
