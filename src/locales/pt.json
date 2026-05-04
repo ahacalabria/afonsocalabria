@@ -17,33 +17,113 @@
   "skills": {
     "title": "Experiência Técnica",
     "backend": "Backend",
-    "frontend": "Frontend & Mobile",
-    "cv": "Visão Computacional",
-    "management": "Gestão"
+    "frontend": "Frontend",
+    "mobile": "Mobile",
+    "devops": "Cloud & DevOps",
+    "cv": "IA & Visão Computacional",
+    "management": "Liderança"
   },
   "projects": {
-    "title": "Projetos em Destaque",
+    "title": "Projetos & Experiências em Destaque",
+    "subtitle": "Clique em \"Método STAR\" em qualquer card para ver o detalhamento completo: Situação → Tarefa → Ação → Resultado.",
+    "starExpand": "Método STAR",
+    "starCollapse": "Fechar",
+    "star": {
+      "s": "Situação",
+      "t": "Tarefa",
+      "a": "Ação",
+      "r": "Resultado"
+    },
     "okaru": {
       "name": "OKARU",
       "desc": "Sistema de software modular para varejo. Gestão de estoque, vendas, financeiro e muito mais em uma plataforma integrada e escalável.",
       "tag1": "Laravel",
       "tag2": "React Native",
-      "tag3": "SaaS"
+      "tag3": "SaaS",
+      "star": {
+        "s": "Varejistas precisavam de uma solução de gestão comercial robusta, escalável e de fácil manutenção, sem depender de alternativas empresariais caras.",
+        "t": "Projetar e entregar uma arquitetura de software modular cobrindo estoque, vendas e gestão financeira como produto SaaS.",
+        "a": "Liderei o design técnico e a implementação de módulos independentes usando Laravel e React Native, garantindo integração fluida e flexibilidade comercial para clientes de diferentes portes.",
+        "r": "Entrega de um MVP funcional e comercializável com estrutura modular que simplifica atualizações futuras, reduz custo de manutenção e viabiliza expansão de mercado."
+      }
     },
     "auto": {
       "name": "Autopictograma",
       "desc": "Pesquisa acadêmica sobre automação de comunicação assistiva. Utiliza OCR e NLP para gerar pictogramas a partir de textos, auxiliando pessoas com TEA e paralisia cerebral.",
       "tag1": "OCR",
       "tag2": "NLP",
-      "tag3": "Pesquisa"
+      "tag3": "Pesquisa",
+      "star": {
+        "s": "Usuários de CAA (Comunicação Aumentativa e Alternativa) enfrentavam barreiras de autonomia em restaurantes, pois configurar quadros de pictogramas exigia cadastro manual demorado.",
+        "t": "Automatizar a criação de quadros de pictogramas diretamente a partir de fotos de cardápios físicos.",
+        "a": "Construí uma pipeline de Visão Computacional com OCR (Tesseract) e modelos de NLP (spaCy + Prodigy) para extração e classificação de entidades alimentares — desenvolvido como pesquisa de Mestrado em parceria com a Livox.",
+        "r": "Alcancei 74,43% de precisão na identificação de itens, eliminando o cadastro manual e reduzindo significativamente o tempo de configuração para usuários de CAA."
+      }
     },
-    "viewMore": "Ver mais"
+    "americanas": {
+      "name": "Sistemas em Grande Escala – Americanas S.A.",
+      "desc": "Desenvolvedor Full Stack Sênior em produtos de e-commerce de alto tráfego, atendendo milhões de usuários. Fluxos de checkout, features para o cliente e ferramentas do ecossistema de vendas.",
+      "tag1": "ReactJS",
+      "tag2": "TypeScript",
+      "tag3": "Angular",
+      "tag4": "PHP / Laravel",
+      "tag5": "AWS",
+      "tag6": "Docker",
+      "star": {
+        "s": "A plataforma de e-commerce da Americanas S.A. precisava evoluir continuamente para suportar picos de tráfego massivos e melhorar a experiência do cliente em escala nacional.",
+        "t": "Atuar como Desenvolvedor Full Stack Sênior em múltiplos produtos de alta visibilidade, garantindo qualidade, performance e entrega contínua.",
+        "a": "Desenvolvi e mantive features voltadas ao cliente e fluxos de checkout usando ReactJS, TypeScript e Angular no front end, e PHP/Laravel no back end, implantados em infraestrutura AWS com containers Docker.",
+        "r": "Entrega de soluções escaláveis e confiáveis que impactaram diretamente a experiência de milhões de usuários na maior plataforma de e-commerce do Brasil."
+      }
+    },
+    "education": {
+      "name": "Educação em Tecnologia – UNINASSAU",
+      "desc": "Professor universitário criando currículos práticos para Desenvolvimento Web e Mobile. Formando a próxima geração de desenvolvedores com stacks reais e avaliações progressivas.",
+      "tag1": "React Native",
+      "tag2": "Flutter",
+      "tag3": "PHP",
+      "tag4": "Git Flow",
+      "star": {
+        "s": "O mercado de trabalho exigia desenvolvedores proficientes em stacks modernas, mas os currículos universitários frequentemente ficavam atrás das práticas do setor.",
+        "t": "Elaborar materiais didáticos práticos e avaliações de nível progressivo para as disciplinas de Programação Web e Desenvolvimento Mobile (níveis 1 e 2).",
+        "a": "Criei conteúdos práticos e avaliações com dificuldade progressiva (níveis 3 a 7) usando stacks reais: React Native, Flutter, PHP, HTML/CSS e fluxos de Git Flow.",
+        "r": "Alunos concluíram o curso com habilidades práticas em frameworks do mercado, mais preparados para ambientes reais de desenvolvimento e para o mercado de trabalho."
+      }
+    },
+    "marathon": {
+      "name": "Alta Performance – Maratona de Fortaleza",
+      "desc": "Preparação para a Maratona de Fortaleza (abril/2026) aplicando a mesma disciplina e planejamento orientado a dados usados em projetos de software — otimizando biomecânica, cadência e nutrição.",
+      "tag1": "Cadência 180 BPM",
+      "tag2": "Estratégia Nutricional",
+      "tag3": "Disciplina",
+      "star": {
+        "s": "A preparação para a Maratona de Fortaleza exigia ganhos consistentes de performance e gerenciamento inteligente de recursos físicos e nutricionais.",
+        "t": "Otimizar a eficiência biomecânica e o planejamento nutricional para alcançar um pace sustentável no objetivo de prova.",
+        "a": "Mantive meta de cadência de 180 BPM e implementei estratégia rigorosa de ingestão de carboidratos e cafeína por hora, monitorando métricas de performance como KPIs de projeto.",
+        "r": "Desenvolvi domínio técnico sobre métricas de performance pessoal, refletindo diretamente a mesma disciplina orientada a dados aplicada ao planejamento e entrega de projetos."
+      }
+    }
   },
   "education": {
     "title": "Educação & Ensino",
-    "educator": {
-      "role": "Educador em Tecnologia",
-      "desc": "Instrutor de programação Web e Mobile, formando a próxima geração de desenvolvedores com foco em fundamentos sólidos e boas práticas."
+    "badgeActive": "Ativo",
+    "uninassau": {
+      "role": "Professor Universitário",
+      "institution": "UNINASSAU – Juazeiro do Norte",
+      "period": "2025 – Presente",
+      "desc": "Lecionando disciplinas de Programação Web, Mobile níveis 1 e 2, e Gestão de Configuração e Dependências. Foco em aprendizado prático com ferramentas modernas."
+    },
+    "master": {
+      "role": "Mestrado em Engenharia de Software",
+      "institution": "CESAR SCHOOL",
+      "period": "2019 – 2021",
+      "desc": "Foco em otimização da criação de software com conceitos de Fábrica de Software e Engenharia de Software aplicada. Pesquisa em parceria com a Livox, desenvolvendo ferramentas de comunicação assistiva com IA, PLN e visão computacional."
+    },
+    "bachelor": {
+      "role": "Bacharelado em Sistemas de Informação",
+      "institution": "IFCE – Crato",
+      "period": "2012 – 2016",
+      "desc": "Experiência de estágio em redes, banco de dados e micro-gerenciamento de projetos. Dois anos de pesquisa em engenharia de software e análise de algoritmos."
     }
   },
   "cats": {

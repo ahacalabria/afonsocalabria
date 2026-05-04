@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import { Server, Smartphone, Eye, BarChart3 } from 'lucide-react'
+import { Server, Monitor, Smartphone, Cloud, Eye, BarChart3 } from 'lucide-react'
 
 const skillGroups = [
   {
@@ -9,23 +9,39 @@ const skillGroups = [
     color: 'text-blue-400',
     bg: 'bg-blue-500/10',
     border: 'border-blue-500/20',
-    skills: ['Laravel', 'PHP', 'MySQL', 'PostgreSQL', 'REST APIs', 'Node.js'],
+    skills: ['PHP', 'Laravel', 'Python', 'Django', 'FastAPI', 'Node.js', 'WordPress', 'MySQL', 'PostgreSQL', 'REST APIs'],
   },
   {
     key: 'frontend',
-    icon: Smartphone,
+    icon: Monitor,
     color: 'text-cyan-400',
     bg: 'bg-cyan-500/10',
     border: 'border-cyan-500/20',
-    skills: ['React Native', 'React', 'JavaScript', 'TypeScript', 'Tailwind CSS', 'HTML/CSS'],
+    skills: ['ReactJS', 'Angular', 'VueJS', 'JavaScript', 'TypeScript', 'SASS', 'HTML/CSS', 'jQuery'],
+  },
+  {
+    key: 'mobile',
+    icon: Smartphone,
+    color: 'text-violet-400',
+    bg: 'bg-violet-500/10',
+    border: 'border-violet-500/20',
+    skills: ['React Native', 'Flutter', 'Kotlin'],
+  },
+  {
+    key: 'devops',
+    icon: Cloud,
+    color: 'text-amber-400',
+    bg: 'bg-amber-500/10',
+    border: 'border-amber-500/20',
+    skills: ['AWS', 'GCP', 'Docker', 'CI/CD', 'Git Flow'],
   },
   {
     key: 'cv',
     icon: Eye,
-    color: 'text-violet-400',
-    bg: 'bg-violet-500/10',
-    border: 'border-violet-500/20',
-    skills: ['YOLO', 'OpenCV', 'Python', 'OCR (Tesseract)', 'NLP', 'Kotlin'],
+    color: 'text-pink-400',
+    bg: 'bg-pink-500/10',
+    border: 'border-pink-500/20',
+    skills: ['TensorFlow', 'NLP', 'OCR (Tesseract)', 'OpenCV', 'YOLO'],
   },
   {
     key: 'management',
@@ -33,7 +49,7 @@ const skillGroups = [
     color: 'text-emerald-400',
     bg: 'bg-emerald-500/10',
     border: 'border-emerald-500/20',
-    skills: ['Technical Leadership', 'Agile / Scrum', 'Git', 'CI/CD', 'Team Mentoring', 'Architecture'],
+    skills: ['Technical Leadership', 'Agile / Scrum', 'Architecture', 'Team Mentoring', 'Software Engineering'],
   },
 ]
 
@@ -49,7 +65,7 @@ export default function Skills() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {skillGroups.map((group) => {
             const Icon = group.icon
             return (
