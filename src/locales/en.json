@@ -1,0 +1,153 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "education": "Education",
+    "cats": "🐱 Cats"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Afonso Calabria",
+    "title": "Software Developer & Technical Manager",
+    "subtitle": "Building high-impact tech solutions focused on performance, scalability, and user experience.",
+    "cta": "View Projects",
+    "ctaContact": "Contact"
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "backend": "Backend",
+    "frontend": "Frontend",
+    "mobile": "Mobile",
+    "devops": "Cloud & DevOps",
+    "cv": "AI & Computer Vision",
+    "management": "Leadership"
+  },
+  "projects": {
+    "title": "Featured Projects & Experience",
+    "subtitle": "Click \"STAR Method\" on any card to reveal the full Situation → Task → Action → Result breakdown.",
+    "starExpand": "STAR Method",
+    "starCollapse": "Close",
+    "star": {
+      "s": "Situation",
+      "t": "Task",
+      "a": "Action",
+      "r": "Result"
+    },
+    "okaru": {
+      "name": "OKARU",
+      "desc": "Modular retail software system. Inventory, sales, financial management and more in an integrated, scalable platform.",
+      "tag1": "Laravel",
+      "tag2": "React Native",
+      "tag3": "SaaS",
+      "star": {
+        "s": "Retailers needed a robust, scalable, and maintainable commercial management solution without relying on costly enterprise alternatives.",
+        "t": "Design and deliver a modular software architecture covering inventory, sales, and financial management as a SaaS product.",
+        "a": "Led the technical design and implementation of independent modules using Laravel and React Native, ensuring seamless integration and commercial flexibility for clients of different sizes.",
+        "r": "Delivered a functional, commercializable MVP with a modular structure that simplifies future updates, reduces maintenance cost, and enables market expansion."
+      }
+    },
+    "auto": {
+      "name": "Autopictograma",
+      "desc": "Academic research on assistive communication automation. Uses OCR and NLP to generate pictograms from text, helping people with ASD and cerebral palsy.",
+      "tag1": "OCR",
+      "tag2": "NLP",
+      "tag3": "Research",
+      "star": {
+        "s": "AAC (Augmentative and Alternative Communication) users faced autonomy barriers in restaurants because setting up pictogram menus required slow, manual configuration.",
+        "t": "Automate the generation of pictogram boards directly from photos of physical restaurant menus.",
+        "a": "Built a Computer Vision pipeline using OCR (Tesseract) and NLP models (spaCy + Prodigy) to extract and classify food entities from raw menu text — developed as part of a Master's research partnership with Livox.",
+        "r": "Achieved 74.43% precision in item identification, eliminating manual entry and significantly reducing setup time for AAC users."
+      }
+    },
+    "americanas": {
+      "name": "Large-Scale Systems – Americanas S.A.",
+      "desc": "Senior Full Stack Developer on high-traffic e-commerce products serving millions of users. Checkout flows, customer-facing features, and internal sales ecosystem tools.",
+      "tag1": "ReactJS",
+      "tag2": "TypeScript",
+      "tag3": "Angular",
+      "tag4": "PHP / Laravel",
+      "tag5": "AWS",
+      "tag6": "Docker",
+      "star": {
+        "s": "Americanas S.A.'s e-commerce platform needed to continuously evolve to handle massive traffic spikes and improve customer experience at national scale.",
+        "t": "Operate as a Senior Full Stack Developer across multiple high-visibility products, ensuring quality, performance, and continuous delivery.",
+        "a": "Developed and maintained customer-facing features and checkout flows using ReactJS, TypeScript, and Angular on the front end, and PHP/Laravel on the back end, deployed on AWS infrastructure with Docker containers.",
+        "r": "Delivered scalable, reliable solutions directly impacting the experience of millions of users on Brazil's largest e-commerce platform."
+      }
+    },
+    "education": {
+      "name": "Tech Education – UNINASSAU",
+      "desc": "University professor designing practical curricula for Web and Mobile Development. Training the next generation of developers with real-world stacks and progressive assessments.",
+      "tag1": "React Native",
+      "tag2": "Flutter",
+      "tag3": "PHP",
+      "tag4": "Git Flow",
+      "star": {
+        "s": "The job market demanded developers proficient in modern stacks, yet university curricula often lagged behind industry practices.",
+        "t": "Design practical course materials and level-progressive assessments for Web Programming and Mobile Development disciplines (levels 1 & 2).",
+        "a": "Created hands-on content and evaluations at progressive difficulty (levels 3–7) using real-world stacks: React Native, Flutter, PHP, HTML/CSS, and Git Flow workflows.",
+        "r": "Students graduated with practical skills in industry-standard frameworks, ready for real development environments and better prepared for the job market."
+      }
+    },
+    "marathon": {
+      "name": "High Performance – Fortaleza Marathon",
+      "desc": "Preparation for the Fortaleza Marathon (April 2026) applying the same discipline and data-driven planning used in software projects — optimizing biomechanics, cadence, and nutrition.",
+      "tag1": "180 BPM Cadence",
+      "tag2": "Nutrition Strategy",
+      "tag3": "Discipline",
+      "star": {
+        "s": "Training for the Fortaleza Marathon required consistent performance gains and smart physical and nutritional resource management.",
+        "t": "Optimize biomechanical efficiency and nutritional planning to achieve a sustainable, target race pace.",
+        "a": "Maintained a cadence target of 180 BPM and implemented a strict per-hour strategy for carbohydrate and caffeine intake, tracking performance metrics just like software KPIs.",
+        "r": "Built technical mastery over personal performance metrics, directly reflecting the same data-driven discipline applied to project planning and delivery."
+      }
+    }
+  },
+  "education": {
+    "title": "Education & Teaching",
+    "badgeActive": "Active",
+    "uninassau": {
+      "role": "University Professor",
+      "institution": "UNINASSAU – Juazeiro do Norte",
+      "period": "2025 – Present",
+      "desc": "Teaching Web Programming, Mobile Development (levels 1 & 2), and Configuration & Dependency Management. Focused on practical, real-world learning with modern tools."
+    },
+    "master": {
+      "role": "Master's in Software Engineering",
+      "institution": "CESAR SCHOOL",
+      "period": "2019 – 2021",
+      "desc": "Focus on software factory processes and applied software engineering. Research partnership with Livox, developing assistive communication tools using AI, NLP, and computer vision."
+    },
+    "bachelor": {
+      "role": "B.Sc. in Information Systems",
+      "institution": "IFCE – Crato",
+      "period": "2012 – 2016",
+      "desc": "Internship experience in networking, databases, and project micro-management. Two years of research in software engineering and algorithm analysis."
+    }
+  },
+  "cats": {
+    "title": "🐱 The Cat Corner",
+    "subtitle": "Every great company has its mascots. These are my real bosses.",
+    "chico": {
+      "name": "Chico",
+      "desc": "The patriarch. Serious and reserved, approves PRs only when in a good mood."
+    },
+    "moca": {
+      "name": "Moça",
+      "desc": "The queen of the house. Elegant, demanding, and an expert code reviewer."
+    },
+    "tiny": {
+      "name": "Tiny",
+      "desc": "The most energetic. Expert debugger (knocks everything over to 'test' it)."
+    },
+    "mime": {
+      "name": "Mime",
+      "desc": "The silent philosopher. Spends hours staring at the screen thinking about algorithms."
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "madeWith": "Made with"
+  }
+}
